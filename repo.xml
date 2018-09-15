@@ -1,2 +1,9 @@
 <repo>
+  <footerlinks>
+    <link>
+      <name>Email</name>
+      <url>mailto:samfoxman320@gmail.com</url>
+      <iconclass>fa fa-envelope</iconclass>
+    </link>
+  </footerlinks>
 </repo>
