@@ -1,6 +1,6 @@
 <package>
 	<id>com.shfdev.trolldrop</id>
-	<name>libswift</name>
+	<name>trolldrop</name>
 	<version>1.0.0</version>
 	<compatibility>
 		<firmware>
