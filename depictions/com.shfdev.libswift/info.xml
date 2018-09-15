@@ -1,0 +1,15 @@
+<package>
+	<id>com.shfdev.libswift</id>
+	<name>libswift</name>
+	<version>4.1.2</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>arm64 libswift dylibs</shortDescription>
+	<descriptionlist>
+		<description>The dylibs are located in /usr/lib/libswift</description>
+		<description>Use install_name_tool to add an rpath or modify dylib paths in order to use the dylibs provided by this package</description>
+	</descriptionlist>
+</package>
