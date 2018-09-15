@@ -1,0 +1,17 @@
+<package>
+	<id>com.shfdev.trolldrop</id>
+	<name>libswift</name>
+	<version>1.0.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>arm64 auto-airdrop</shortDescription>
+	<descriptionlist>
+		<description>Remember to enable bluetooth and wifi before running.</description>
+		<description>Usage: trolldrop &lt;path&gt; [recharge seconds=10]</description>
+		<description>Example: trolldrop file:///var/mobile/troll.jpg 0</description>
+		<description>Example: trolldrop https://g.co/ 15</description>
+	</descriptionlist>
+</package>
