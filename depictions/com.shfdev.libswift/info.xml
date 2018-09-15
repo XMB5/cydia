@@ -9,7 +9,8 @@
 	</compatibility>
 	<shortDescription>arm64 libswift dylibs</shortDescription>
 	<descriptionlist>
+                <descriptoin>libswift's license can be found at https://swift.org/LICENSE.txt</description>
 		<description>The dylibs are located in /usr/lib/libswift</description>
-		<description>Use install_name_tool to add an rpath or modify dylib paths in order to use the dylibs provided by this package</description>
+		<description>To use the dylibs provided by this package, use install_name_tool on a binary to add an rpath or to modify library paths</description>
 	</descriptionlist>
 </package>
