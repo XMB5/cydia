@@ -9,6 +9,7 @@
 	</compatibility>
 	<shortDescription>arm64 auto-airdrop</shortDescription>
 	<descriptionlist>
+		<description>auto-aidrop</description>
 		<description>Remember to enable bluetooth and wifi before running.</description>
 		<description>Usage: trolldrop &lt;path&gt; [recharge seconds=10]</description>
 		<description>Example: trolldrop file:///var/mobile/troll.jpg 0</description>
