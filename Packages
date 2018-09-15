@@ -1,28 +1,26 @@
-Package: com.supermamon.newpackage
-Version: 2.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (>7.0), mobilesubstrate
+Package: com.shfdev.libswift
+Name: libswift
+Version: 4.1.2
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.newpackage_2.0.0-1_iphoneos-arm.deb
-Size: 854
-MD5sum: 85a01c41aaaa72b48b08d9d0a67f3016
-Description: This is a sample new package. Firmware should be greater than 7.0
-Name: New Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.newpackage
+Description: arm64 libswift dylibs
+Maintainer: Sam Foxman <samfoxman320@gmail.com>
+Author: Swift Developers
+Section: Libraries
+Depiction: https://xmb5.github.io/cydia/depictions/?p=com.shfdev.libswift
+MD5sum: 5ab8a4c73808cb2597ce9bd53491328a
+Size: 10781820
+Filename: ./debs/com.shfdev.libswift_4.1.2_iphoneos-arm.deb
 
-Package: com.supermamon.oldpackage
-Version: 1.0.0-1
-Section: Tweaks
-Maintainer: Reposi3 <reposithree@gmail.com>
-Depends: firmware (<7.0)
+Package: com.shfdev.trolldrop
+Name: trolldrop
+Version: 1.0.0
 Architecture: iphoneos-arm
-Filename: ./debs/com.supermamon.oldpackage_1.0.0-1_iphoneos-arm.deb
-Size: 860
-MD5sum: 8c606f0c05217aa2a20949091fe516f0
-Description: This is a sample old package. Firmware should be lower than 7.0
-Name: Old Package
-Author: Reposi3 <reposithree@gmail.com>
-Depiction: https://supermamon.github.io/Reposi3/depictions/?p=com.supermamon.oldpackage
-
+Description: arm64 trolldrop
+Maintainer: Sam Foxman <samfoxman320@gmail.com>
+Author: a2 <me@a2.io>
+Section: Fun
+Depends: com.shfdev.libswift (>= 4.1.2)
+Depiction: https://xmb5.github.io/cydia/depictions/?p=com.shfdev.trolldrop
+MD5sum: 8e2a4a9cb8ba2c114a1e9099d54833a4
+Size: 29068
+Filename: ./debs/com.shfdev.trolldrop_1.0.0_iphoneos-arm.deb
