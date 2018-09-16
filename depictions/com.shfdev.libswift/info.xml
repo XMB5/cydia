@@ -12,6 +12,6 @@
 		<description>libswift dylibs</description>
                 <description>libswift's license can be found at https://swift.org/LICENSE.txt</description>
 		<description>The dylibs are located in /usr/lib/libswift</description>
-		<description>To use the dylibs provided by this package, use install_name_tool on a binary to add an rpath or to modify library paths</description>
+		<description>To use the dylibs provided by this package, use install_name_tool -add_rpath /usr/lib/libswift executable</description>
 	</descriptionlist>
 </package>
