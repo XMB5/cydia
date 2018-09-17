@@ -12,6 +12,7 @@
 		<description>auto-aidrop</description>
 		<description>Remember to enable bluetooth and wifi before running.</description>
 		<description>Usage: trolldrop &#x26;#x3C;path&#x26;#x3E; [recharge seconds=10]</description>
+		<description>To cancel, press control-c</description>
 		<description>Example: trolldrop file:///var/mobile/troll.jpg 0</description>
 		<description>Example: trolldrop https://g.co/ 15</description>
                 <description>Original Authors: https://github.com/neonichu and https://github.com/a2</description>
