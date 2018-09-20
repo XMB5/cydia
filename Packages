@@ -9,7 +9,7 @@ Section: Libraries
 Depiction: https://xmb5.github.io/cydia/depictions/?p=com.shfdev.libswift
 MD5sum: 8152ccc146575113543f82931edf0141
 Size: 16324074
-Filename: ./debs/gzip-com.shfdev.libswift_4.1.2_iphoneos-arm.deb
+Filename: ./debs/gzip_com.shfdev.libswift_4.1.2_iphoneos-arm.deb
 
 Package: com.shfdev.trolldrop
 Name: trolldrop
@@ -23,7 +23,7 @@ Depends: com.shfdev.libswift (>= 4.1.2)
 Depiction: https://xmb5.github.io/cydia/depictions/?p=com.shfdev.trolldrop
 MD5sum: ec4f20796cfefc1506e2d071be45b20b
 Size: 37230
-Filename: ./debs/gzip-com.shfdev.trolldrop_1.0.0_iphoneos-arm.deb
+Filename: ./debs/gzip_com.shfdev.trolldrop_1.0.0_iphoneos-arm.deb
 
 Package: com.shfdev.keychaineditor
 Name: keychaineditor
@@ -36,4 +36,4 @@ Section: Tools
 Depends: com.shfdev.libswift (>= 4.1.2)
 MD5sum: 60fe363dc224917bdc6e48c69e2c85ad
 Size: 44032
-Filename: ./debs/gzip-com.shfdev.keychaineditor_1.0.0_iphoneos-arm.deb
+Filename: ./debs/gzip_com.shfdev.keychaineditor_1.0.0_iphoneos-arm.deb
