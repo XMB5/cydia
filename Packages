@@ -36,4 +36,4 @@ Section: Tools
 Depends: com.shfdev.libswift (>= 4.1.2)
 MD5sum: 60fe363dc224917bdc6e48c69e2c85ad
 Size: 44032
-Filename: ./debs/gzip_com.shfdev.keychaineditor_1.0.0_iphoneos-arm.deb
+Filename: ./debs/gzip_com.shfdev.keychaineditor_2.1_iphoneos-arm.deb
