@@ -23,7 +23,7 @@ fi
 
 echo 'copying deb file'
 PACKAGE_ID="$(dpkg -f "$DEB_LOC" Package)"
-PACKAGE_VERION="$(dpkg -f "$DEB_LOC" Version)"
+PACKAGE_VERSION="$(dpkg -f "$DEB_LOC" Version)"
 FILENAME="./debs/${PACKAGE_ID}_${PACKAGE_VERSION}.deb"
 cp "$DEB_LOC" "$FILENAME"
 
@@ -53,7 +53,7 @@ echo "<package>
 	<shortDescription>$SHORT_DESCRIPTION</shortDescription>
 	<descriptionlist>" > "$DEPICTION_DIR/info.xml"
 if [[ -n "$PACKAGE_AUTHOR_EMAIL" ]]; then
-  echo "                <description>Author: &lt;a href=\"mailto:$PACKAGE_AUTHOR_EMAIL\"&gt;$PACKAGE_AUTHOR_NAME&lt;/a&gt;</description>" >> "$DEPICTION_DIR/info.xml"
+  echo "                <description>Author: &lt;a href=\"mailto:$PACKAGE_AUTHOR_EMAIL\"&gt;$PACKAGE_AUTHOR_NAME &amp;lt;$PACKAGE_AUTHOR_EMAIL&amp;gt;&lt;/a&gt;</description>" >> "$DEPICTION_DIR/info.xml"
 else
   echo "                <description>Author: $PACKAGE_AUTHOR_NAME</description>" >> "$DEPICTION_DIR/info.xml"
 fi
