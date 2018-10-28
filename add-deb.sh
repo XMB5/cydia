@@ -66,8 +66,9 @@ SIZE="$(stat --printf=%s "$FILENAME")"
 
 echo 'adding info to packages list'
 echo "
-MD5sum: $MD5sum
+MD5sum: $MD5SUM
 Size: $SIZE
+Filename: $FILENAME
 Depiction: https://xmb5.github.io/cydia/depictions/?p=$PACKAGE_ID" >> Packages
 dpkg -f "$DEB_LOC" >> Packages
 bzip2 -f -k Packages
