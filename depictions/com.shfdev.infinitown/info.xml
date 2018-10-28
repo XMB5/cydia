@@ -1,0 +1,14 @@
+<package>
+	<id>com.shfdev.infinitown</id>
+	<name>Infinitown</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>Infinite scrolling 3D town</shortDescription>
+	<descriptionlist>
+		<description>Converted &lt;a href="https://demos.littleworkshop.fr/infinitown"&gt;infinitown&lt;/a&gt; to XenHTML Wallpaper</description>
+	</descriptionlist>
+</package>

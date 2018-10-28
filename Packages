@@ -37,3 +37,16 @@ Depends: com.shfdev.libswift (>= 4.1.2)
 MD5sum: 60fe363dc224917bdc6e48c69e2c85ad
 Size: 44032
 Filename: ./debs/gzip_com.shfdev.keychaineditor_2.1_iphoneos-arm.deb
+
+Package: com.shfdev.infinitown
+Name: Infinitown
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Infinite scrolling 3D town
+Depends: com.matchstic.xenhtml
+Section: Widgets
+Author: Little Workshop <hello@littleworkshop.fr>
+Maintainer: Sam Foxman <samfoxman320@gmail.com>
+Filename: ./debs/infinitown_1.0.deb
+MD5sum: 9f4a0df063e32e4447a741eda328db7b
+Size: 3940398

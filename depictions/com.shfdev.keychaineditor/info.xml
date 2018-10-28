@@ -7,10 +7,10 @@
 			<miniOS>7.0</miniOS>
 		</firmware>
 	</compatibility>
-	<shortDescription>arm64 auto-airdrop</shortDescription>
+	<shortDescription>Edit the on-device keychain</shortDescription>
 	<descriptionlist>
-		<description>Edits the on-device keychain.</description>
 		<description>Can remove tracking tokens and reset free trials.</description>
-                <description>Author: https://github.com/NitinJami</description>
+                <description>Original Author: https://github.com/NitinJami</description>
+		<description>Github: https://github.com/XMB5/keychaineditor</description>
 	</descriptionlist>
 </package>
