@@ -1,0 +1,14 @@
+<package>
+	<id>com.shfdev.infinitown</id>
+	<name>Ribbons</name>
+	<version>1.0</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+		</firmware>
+	</compatibility>
+	<shortDescription>ambient generative art</shortDescription>
+	<descriptionlist>
+                <description>Author: &lt;a href="mailto:felix@airtightinteractive.com"&gt;Felix Turner &amp;lt;felix@airtightinteractive.com&amp;gt;&lt;/a&gt;</description>
+	</descriptionlist>
+</package>

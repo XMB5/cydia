@@ -52,3 +52,17 @@ Filename: ./debs/infinitown_1.0.deb
 MD5sum: 9f4a0df063e32e4447a741eda328db7b
 Size: 3940398
 Depiction: https://xmb5.github.io/cydia/depictions/?p=com.shfdev.infinitown
+
+MD5sum: 364d6547d366d6cfc1f3c2e6177ff766
+Size: 206186
+Filename: ./debs/com.shfdev.ribbons_1.0.deb
+Depiction: https://xmb5.github.io/cydia/depictions/?p=com.shfdev.ribbons
+Package: com.shfdev.ribbons
+Name: Ribbons
+Version: 1.0
+Architecture: iphoneos-arm
+Description: ambient generative art
+Depends: com.matchstic.xenhtml
+Section: Widgets
+Author: Felix Turner <felix@airtightinteractive.com>
+Maintainer: Sam Foxman <samfoxman320@gmail.com>
